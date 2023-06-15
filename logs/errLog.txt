@@ -1,0 +1,158 @@
+2023-06-02		12:12:38	79affbb3-9bfe-4008-aa57-86a652048ec9	 ReferenceError: response is not defined	GET	/user	undefined 
+2023-06-02		12:24:00	0a0716c1-5ff1-497e-855b-587a40ed43e4	 Error: Cannot set headers after they are sent to the client	POST	/user	undefined 
+2023-06-06		13:16:08	1416a7ae-8b2a-4832-bc9e-4ac9422d9e07	 Error: Not allowed by CORS	GET	/user	http://localhost:5174 
+2023-06-06		13:18:00	0e228005-99f6-4ee9-8e0f-995c1a83e411	 Error: Not allowed by CORS	GET	/user	http://localhost:5174 
+2023-06-06		13:18:05	3da12816-3309-456d-9260-8b7cc386d9a6	 Error: Not allowed by CORS	GET	/users	http://localhost:5174 
+2023-06-06		13:20:40	5c5e18c0-8b16-4497-b0cf-1d38df9bf19c	 Error: Not allowed by CORS	GET	/users	http://localhost:5174 
+2023-06-06		14:14:38	2b8eab2b-3862-44c4-9859-84b25f2f8614	 Error: Not allowed by CORS	GET	/users	http://localhost:5174 
+2023-06-08		09:49:34	04e6e3e1-a51b-4f54-8b6e-06661e1654b8	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	undefined 
+2023-06-08		09:50:29	6ea255b9-f3fe-4406-b21c-650825e583a2	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	undefined 
+2023-06-08		09:51:31	b91426a7-e76c-409c-b51b-9bf6a709dacd	 SyntaxError: Unexpected token " in JSON at position 1	GET	/users	undefined 
+2023-06-08		09:51:57	22d0e957-f7ec-43c3-9a02-19754c991aa5	 SyntaxError: Unexpected token " in JSON at position 1	GET	/users	undefined 
+2023-06-08		09:57:15	9f19c19c-648d-4e5b-b57f-61c52a29ef82	 SyntaxError: Unexpected token " in JSON at position 0	POST	/notes	undefined 
+2023-06-08		10:00:39	e2c027b7-932c-402f-9923-61deb7b0114a	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	undefined 
+2023-06-08		10:02:05	43c6a9c6-480e-4d49-abdd-3aded7fb7e2a	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	undefined 
+2023-06-08		10:02:36	e1cff2a6-cf5d-4e28-97f3-7931ae75cd3f	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:5173 
+2023-06-08		10:02:39	f1ca9f89-a5ab-48ee-8caa-174633891ccf	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:5173 
+2023-06-08		10:05:49	848c2a92-47b4-49b8-a04a-3315b83b5239	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	undefined 
+2023-06-08		10:07:05	a86abfb4-e777-4e4a-b7cf-0a75b09b4e27	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:5173 
+2023-06-08		10:07:51	7db78c00-a92a-4506-bbce-278780dfc701	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:5173 
+2023-06-08		10:07:55	87dd33fb-facb-4711-ab53-a32666648f01	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:5173 
+2023-06-08		10:07:57	d25c1b7e-31d9-4ccf-a0d2-66f36266aab7	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:5173 
+2023-06-08		10:08:42	9b02b4d5-468e-488b-a0e3-a4501c40618e	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:5173 
+2023-06-08		10:09:36	7b513101-5437-45f8-bf3f-f23c0bde3862	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:5173 
+2023-06-08		10:11:02	517e07a4-69ac-4142-b08b-5695c07dcf4e	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:5173 
+2023-06-08		10:11:15	8adba00f-88ec-475e-817d-5cd9554be223	 TypeError: Cannot read properties of null (reading 'username')	GET	/notes	http://localhost:5173 
+2023-06-08		11:08:24	d589c38b-8e98-47b6-a141-4a0c8bdd3451	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-gzgjp8l-shard-00-00.fudhah5.mongodb.net	GET	/notes	http://localhost:5173 
+2023-06-08		11:32:51	7be23878-ec98-472e-b18e-b4a357a88132	 ValidationError: Note validation failed: user: Cast to ObjectId failed for value "waheed" (type string) at path "user" because of "BSONError"	POST	/notes	undefined 
+2023-06-08		16:00:42	55d68aeb-cf38-4bb0-aa0c-2e297849b5ed	 ReferenceError: asyncHandler is not defined	GET	/auth/refresh	undefined 
+2023-06-13		09:35:51	818e42e9-c865-4390-9466-e551cf330a38	 ValidationError: Note validation failed: user: Cast to ObjectId failed for value "[]" (type Array) at path "user" because of "BSONError"	POST	/notes	http://localhost:5173 
+2023-06-14		10:53:35	e6672809-2660-4900-8b8b-54db3908b36a	 ValidationError: Note validation failed: user: Cast to ObjectId failed for value "[
+  {
+    _id: '6481b01981377e605459b7e3',
+    username: 'Blinks',
+    roles: [ 'Employee', 'Admin' ],
+    active: true,
+    __v: 1,
+    id: '6481b01981377e605459b7e3'
+  },
+  {
+    _id: '6481b02381377e605459b7e6',
+    username: 'Ahmad',
+    roles: [ 'Employee' ],
+    active: true,
+    __v: 0,
+    id: '6481b02381377e605459b7e6'
+  },
+  {
+    _id: '6481b06081377e605459b7f2',
+    username: 'Tijani',
+    roles: [ 'Manager' ],
+    active: true,
+    __v: 0,
+    id: '6481b06081377e605459b7f2'
+  },
+  {
+    _id: '6481ee952c3759de20635a5c',
+    username: 'Matex',
+    roles: [ 'manager' ],
+    active: true,
+    __v: 0,
+    id: '6481ee952c3759de20635a5c'
+  },
+  {
+    _id: '648827a1db70042adda0f995',
+    username: 'Tee Blinks',
+    roles: [ 'Employee' ],
+    active: true,
+    __v: 0,
+    id: '648827a1db70042adda0f995'
+  }
+]" (type Array) at path "user" because of "BSONError"	POST	/notes	http://localhost:5173 
+2023-06-14		10:56:40	2408932d-e494-45c2-a4d3-85085dea8695	 ValidationError: Note validation failed: user: Cast to ObjectId failed for value "[
+  {
+    _id: '6481b01981377e605459b7e3',
+    username: 'Blinks',
+    roles: [ 'Employee', 'Admin' ],
+    active: true,
+    __v: 1,
+    id: '6481b01981377e605459b7e3'
+  },
+  {
+    _id: '6481b02381377e605459b7e6',
+    username: 'Ahmad',
+    roles: [ 'Employee' ],
+    active: true,
+    __v: 0,
+    id: '6481b02381377e605459b7e6'
+  },
+  {
+    _id: '6481b06081377e605459b7f2',
+    username: 'Tijani',
+    roles: [ 'Manager' ],
+    active: true,
+    __v: 0,
+    id: '6481b06081377e605459b7f2'
+  },
+  {
+    _id: '6481ee952c3759de20635a5c',
+    username: 'Matex',
+    roles: [ 'manager' ],
+    active: true,
+    __v: 0,
+    id: '6481ee952c3759de20635a5c'
+  },
+  {
+    _id: '648827a1db70042adda0f995',
+    username: 'Tee Blinks',
+    roles: [ 'Employee' ],
+    active: true,
+    __v: 0,
+    id: '648827a1db70042adda0f995'
+  }
+]" (type Array) at path "user" because of "BSONError"	POST	/notes	http://localhost:5173 
+2023-06-14		14:39:15	1ef5734c-2fed-4cc1-939c-ed24b733e6ea	 ValidationError: Note validation failed: user: Cast to ObjectId failed for value "[
+  {
+    _id: '6481b01981377e605459b7e3',
+    username: 'Blinks',
+    roles: [ 'Employee', 'Admin' ],
+    active: true,
+    __v: 1,
+    id: '6481b01981377e605459b7e3'
+  },
+  {
+    _id: '6481b02381377e605459b7e6',
+    username: 'Ahmad',
+    roles: [ 'Employee' ],
+    active: true,
+    __v: 0,
+    id: '6481b02381377e605459b7e6'
+  },
+  {
+    _id: '6481b06081377e605459b7f2',
+    username: 'Tijani',
+    roles: [ 'Manager' ],
+    active: true,
+    __v: 0,
+    id: '6481b06081377e605459b7f2'
+  },
+  {
+    _id: '6481ee952c3759de20635a5c',
+    username: 'Matex',
+    roles: [ 'manager' ],
+    active: true,
+    __v: 0,
+    id: '6481ee952c3759de20635a5c'
+  },
+  {
+    _id: '648827a1db70042adda0f995',
+    username: 'Tee Blinks',
+    roles: [ 'Employee' ],
+    active: true,
+    __v: 0,
+    id: '648827a1db70042adda0f995'
+  }
+]" (type Array) at path "user" because of "BSONError"	POST	/notes	http://localhost:5173 
+2023-06-15		09:52:22	088bcedf-352a-4513-8b1a-8503a8f3f2ad	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-gzgjp8l-shard-00-00.fudhah5.mongodb.net	GET	/users	http://localhost:5173 
+2023-06-15		09:52:39	77fdefe1-79f3-434b-859a-df554af9cd41	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-gzgjp8l-shard-00-00.fudhah5.mongodb.net	GET	/notes	http://localhost:5173 
+2023-06-15		09:52:54	3cac3403-915e-41d0-90e4-4fc7480e05e2	 MongoServerSelectionError: getaddrinfo ENOTFOUND ac-gzgjp8l-shard-00-00.fudhah5.mongodb.net	GET	/users	http://localhost:5173 
